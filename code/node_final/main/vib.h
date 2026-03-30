@@ -1,0 +1,2 @@
+
+void vib_init();

@@ -1,0 +1,12 @@
+# ESP-IDF specific
+build/
+sdkconfig
+sdkconfig.old
+node_modules/
+managed_components/
+
+# Python/System
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/

@@ -1,0 +1,15 @@
+open powershell
+To build and run:
+	export.ps1
+	idf.py set-target esp32   (only once per project)
+	idf.py menuconfig (TO ENABLE CSI IN component config->wifisettings, SET RTOS TICK to 500Hz not 100)
+	idf.py build
+	idf.py flash [-p COM5 (or similar)]
+	idf.py monitor - to see program output
+		ctrl+] to exit monitor mode
+
+
+Miscellaneous
+	idf.py fullclean - to clean build
+	idf.py menuconfig
+	idf.py create-project <project name>

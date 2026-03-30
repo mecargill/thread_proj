@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compileCommands": [
+                "C:\\Users\\cargi\\Documents\\Projects\\thread_contest\\esp32_project\\csi_test_ap\\build\\compile_commands.json"
+            ]
+        }
+    ],
+    "version": 4
+}
