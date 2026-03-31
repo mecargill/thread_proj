@@ -1,2 +1,6 @@
 build/
 *.mp4
+csi_test_ap/
+csi_test_sta/
+bob_test/
+*.mov
