@@ -4,12 +4,12 @@
 #include "freertos/task.h" 
 #include "freertos/queue.h"
 #include "esp_system.h"        // Basic ESP32 system functions
-#include "esp_log.h"           // The "professional" version of printf
+#include "esp_log.h"           
 #include "esp_err.h"
 //specific
-#include "nvs_flash.h"         // For the "Storage" (NVS)
-#include "esp_wifi.h"          // The actual Wi-Fi driver functions
-#include "esp_event.h"         // To handle "Connected" or "Got IP" events
+#include "nvs_flash.h"        
+#include "esp_wifi.h"          
+#include "esp_event.h"         
 #include "esp_netif.h"
 #include "esp_mac.h"
 #include "esp_timer.h"
@@ -152,7 +152,7 @@ void csi_handler(void *ctx, wifi_csi_info_t *data)
     }
 }
 
-//CSI thresholding is simple rising edge since it doesn't oscillate like the vib and mic data
+
 //There are 2 types of CSI events - low is for general presence detection (walking, etc.), high is for 
 //extreme motion
 void csi_threshold(uint64_t rol_var)

@@ -1,7 +1,7 @@
 #pragma once
 
-#include "nvs_flash.h"         // For the "Storage" (NVS)
-#include "esp_wifi.h"          // The actual Wi-Fi driver functions
+#include "nvs_flash.h"         
+#include "esp_wifi.h"          
 #include "esp_netif.h"
 #include "esp_event.h"  
 

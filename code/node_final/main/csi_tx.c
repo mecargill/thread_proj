@@ -102,10 +102,4 @@ void enable_csi_tx()
     esp_wifi_set_bandwidth(WIFI_IF_AP, WIFI_BW20);//just to be sure
 }
 
-/**
- * NOTES
- * 
- *
- * you need to lock phy rate to something low to avoid adaptation
- * you need to disable power saving potentially on sta
- */
+
