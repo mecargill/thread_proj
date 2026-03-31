@@ -12,11 +12,11 @@
 
 #include "freertos/FreeRTOS.h" 
 #include "freertos/task.h"  
-#include "esp_system.h"        // Basic ESP32 system functions
-#include "esp_log.h"           // The "professional" version of printf
+#include "esp_system.h"        
+#include "esp_log.h"           
 #include "esp_err.h"
 
-#include "driver/uart.h"//delete later
+#include "driver/uart.h"
 
 static const char *tag = "[MAIN]";
 enum Mode mode = NORMAL;
