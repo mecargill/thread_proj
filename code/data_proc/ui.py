@@ -7,10 +7,9 @@ import tkinter as tk
 from tkinter import scrolledtext
 import time
 
-#PACKET FORMAT: [start bytes (2 bytes)] [num samples (2 bytes)] [tstamp (8 bytes)][samples(num_samples*2 bytes)][end bytes (2 bytes)]
 #esp32 is little endian
 
-
+#CHANGE PORT TO MATCH YOURS
 serial_port = "COM5"
 baud_rate = 115200
 
